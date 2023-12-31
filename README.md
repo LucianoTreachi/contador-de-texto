@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/LucianoTreachi/Text-Counter/main/assets/readme-banner.jpg" width="100%" alt="Banner"/>
+  <img src="https://raw.githubusercontent.com/LucianoTreachi/Contador-de-texto/main/assets/readme-banner.jpg" width="100%" alt="Banner"/>
 </div>
 
 ### ✅ Proyecto
