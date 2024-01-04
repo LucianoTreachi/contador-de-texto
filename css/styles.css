@@ -48,7 +48,7 @@ button {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -134,7 +134,7 @@ button {
 .container-words h2,
 .container-phrases h2,
 .container-paragraphs h2 {
-  font-size: 3rem;
+  font-size: 2.8rem;
   font-weight: 500;
   color: var(--title-color);
 }
@@ -143,7 +143,7 @@ button {
 .container-words span,
 .container-phrases span,
 .container-paragraphs span {
-  font-size: 3rem;
+  font-size: 2.8rem;
   font-weight: 500;
   color: var(--text-color);
 }
@@ -156,7 +156,6 @@ button {
   background: #1e2332;
   padding: 1.6rem 3.6rem;
   user-select: none;
-  /* grid-column: span 2; */
 }
 
 .reset-button:active {
@@ -182,13 +181,14 @@ button {
 }
 
 .section-2 h2 {
-  font-size: 3rem;
+  font-size: 2.4rem;
   font-weight: 500;
   color: var(--title-color);
+  line-height: 1.2em;
 }
 
 .section-2 p {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: var(--text-color);
   width: 70%;
   line-height: 1.3em;
@@ -250,12 +250,7 @@ button {
     font-size: 2.4rem;
   }
 
-  .section-2 h2 {
-    font-size: 2.4rem;
-  }
-
   .section-2 p {
-    font-size: 1.8rem;
     width: 90%;
     text-wrap: balance;
   }
