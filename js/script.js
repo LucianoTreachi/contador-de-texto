@@ -1,7 +1,6 @@
 const textarea = document.querySelector(".textarea")
 const numberOfCharacters = document.querySelector(".number-of-characters")
 const numberOfWords = document.querySelector(".number-of-words");
-const numberOfRepeatWords = document.querySelector(".number-of-repeat-words");
 const numberOfPhrases = document.querySelector(".number-of-phrases")
 const numberOfParagraphs = document.querySelector(".number-of-paragraphs");
 
