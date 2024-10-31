@@ -5,7 +5,7 @@ const numberOfPhrases = document.querySelector(".number-of-phrases")
 const numberOfParagraphs = document.querySelector(".number-of-paragraphs");
 
 const resetButton = document.querySelector(".reset-button");
-const closeIcon = document.querySelector(".close-icon");
+const deleteTextButton = document.querySelector(".delete-text-button");
 
 // CHARACTERS
 function countCharacters() {
@@ -51,4 +51,4 @@ function resetCounts() {
 // LISTENERS
 textarea.addEventListener("input", updateCounts);
 resetButton.addEventListener("click", resetCounts);
-closeIcon.addEventListener("click", resetCounts);
+deleteTextButton.addEventListener("click", resetCounts);

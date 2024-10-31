@@ -48,7 +48,7 @@ button {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -71,20 +71,34 @@ button {
   position: relative;
 }
 
-.close-icon {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  fill: #1b2027;
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
+.delete-text-button {
+  border: none;
   background-color: #bad6f7;
   border-radius: .5rem;
+  position: absolute;
+  top: 4rem;
+  right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.close-icon:active {
+.delete-text-button svg {
+  fill: #1b2027;
+  width: 3rem;
+  height: 3rem;
+}
+
+.delete-text-button:active {
   opacity: .8;
+}
+
+.label {
+  display: block;
+  font-size: 1.8rem;
+  color: var(--text-color);
+  opacity: 0.85;
+  margin-bottom: 1rem;
 }
 
 .textarea {
@@ -235,10 +249,10 @@ button {
 /* RESPONSIVE */
 
 @media screen and (max-width: 600px) {
-  .close-icon {
-    top: 1.9rem;
-    width: 20px;
-    height: 20px;
+  .delete-text-button svg {
+    top: 4.3rem;
+    width: 2.4rem;
+    height: 2.4rem;
   }
 
   .container-results {
