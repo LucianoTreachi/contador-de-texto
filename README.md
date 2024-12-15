@@ -9,6 +9,7 @@
 ## Características
 
 - **Resultados en tiempo real**: Muestra el número de caracteres, palabras, oraciones y párrafos a medida que ingresas el texto.
+
 - **Responsivo**: Se adapta perfectamente a cualquier dispositivo: computadoras, tablets y móviles.
 
 ## Pasos para utilizarlo
@@ -21,15 +22,17 @@
 
 [![Captura de pantalla del proyecto](https://i.postimg.cc/PqVSz1Mz/website.jpg)](https://postimg.cc/06mG9MFb)
 
-## Comprueba cómo funciona
-
-Accede aquí → [Contador de texto](https://contadordetexto.vercel.app/)
-
 ## Tecnologías utilizadas
 
 - **HTML:** Estructura y contenido.
+
 - **CSS:** Estilización y diseño responsivo.
+
 - **JavaScript:** Funcionalidad interactiva.
+
+## Comprueba cómo funciona
+
+Accede aquí → [Contador de texto](https://contadordetexto.vercel.app/)
 
 ## Desarrollado por
 
