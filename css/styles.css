@@ -80,8 +80,8 @@ button:hover {
   background-color: #bad6f7;
   border-radius: .5rem;
   position: absolute;
-  top: 4rem;
-  right: 1rem;
+  top: 4.5rem;
+  right: 1.6rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,7 +117,7 @@ button:hover {
   line-height: 1.4em;
   color: var(--text-color);
   padding: 1.6rem;
-  padding-right: 4rem;
+  padding-right: 4.5rem;
   transition: .3s;
 }
 
@@ -256,12 +256,6 @@ button:hover {
 @media screen and (max-width: 600px) {
   button:hover {
     opacity: 1;
-  }
-
-  .delete-text-button svg {
-    top: 4.3rem;
-    width: 2.4rem;
-    height: 2.4rem;
   }
 
   .container-results {
