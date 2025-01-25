@@ -281,6 +281,10 @@ button:hover {
     width: 90%;
     text-wrap: balance;
   }
+
+  .footer-icons svg:hover {
+    transform: scale(1);
+  }
 }
 
 @media screen and (max-width: 325px) {
